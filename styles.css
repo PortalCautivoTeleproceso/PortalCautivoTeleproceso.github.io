@@ -1,0 +1,72 @@
+#ad-banner {
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+#ad-banner img {
+  width: 100%;
+}
+
+
+#contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#login {
+  background-color: grey;
+  padding: 1%;
+  border-radius: 0.5rem;
+  width: 60%;
+  margin-top: 15%;
+}
+
+h1 {
+  color: white;
+}
+
+#custom-form input {
+  display: block;
+  border-radius: 0.5rem;
+  width: 95%;
+  margin-bottom: 5%;
+  border: none;
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border: 0 none;
+  padding: 0.6rem;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 0.6rem;
+  color: white;
+  font-weight: bold;
+  background-color: #800000;
+  width: 100%;
+  display: block;
+  padding: 0.875rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 6px 3px 8px black, -6px -3px 8px black;
+  cursor: pointer;
+}
+
+#register {
+  margin-top: 20px;
+}
+
+#register a {
+  color: #d10c0c;
+}

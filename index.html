@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Cautivo</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+
+    <div id="ad-banner">
+        <a href="https://www.classichotspot.com/es/blog/como-funciona-la-autenticacion-del-usuario-en-los-puntos-de-acceso-y-en-el-portal-cautivo-de-tanaza/"
+            target=”_blank”>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3Q-DgQvunWfSOAO3lyccykwvvSHk_ssoPg&s">
+        </a>
+        <button id="Close_Ad">Cerrar Anuncio</button>
+    </div>
+
+    <div id="contenedor">
+        <div id="login">
+            <h1>Iniciar sesión</h1>
+
+            <form id="custom-form" [formGroup]="LoginForm" novalidate>
+                <label>Usuario:</label>
+                <input id="User" type="User" formControlName="User_Email" required>
+                <label>Contraseña:</label>
+                <input id="Pass" type="password" formControlName="Password" required="">
+                <button id="BotonLogin" type="submit" (click)="login()">Log in</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
